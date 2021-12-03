@@ -1,0 +1,12 @@
+package exceptions;
+
+public class KeyNotFoundException extends Exception {
+
+	private static final long serialVersionUID = 1L;
+
+	public KeyNotFoundException() {}
+	
+	public KeyNotFoundException(String msg) {
+		super(msg);
+	}
+}
